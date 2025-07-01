@@ -2,9 +2,9 @@
 
 _The following instructions identify primary replication results in the prepublication manuscript and provide guidance for reproducing these results on your own machine._ 
 
-Download the replications archive [here](https://drive.google.com/file/d/1jacy9GItof_2O57ege6ThBkKAJJ7R1UO/view?usp=sharing) (GDrive link; 184 MB). 
+For article-scoped replication data files, download the `articles_data` archive [here](https://drive.google.com/file/d/1h8ML2LS8g44M2WpyX2L7Lr_bVMHECftL/view?usp=sharing) (GDrive link; 180.5 MB). 
 
-On unzipping `replications.zip`, you'll see three directories: articles, users, and websites. These correspond to the replications found in Sections 5.1, 5.2, and 5.3, respectively, of the manuscript. Instructions for replicating results for each section follow. 
+In this Git repo, you'll see the following three subdirectories: articles, users, and websites. These correspond to the replications found in Sections 5.1, 5.2, and 5.3, respectively, of the manuscript. Instructions for replicating results for each section follow. 
 
 #### Articles 
 See Table 2 in the main paper for the results of replication analyses of the ISOT, FA-KES, and NYTimes and Reuters datasets. In the `articles` directory of the main `replications` archive, execute `./run.sh` to run 30 iterations of the model (with prespecified random seeds) on 1) ISOT and FAKES datasets used in the [original paper](https://www.researchgate.net/publication/348379370_Fake_news_detection_A_hybrid_CNN-RNN_based_deep_learning_approach) and 2) original and modified datasets we developed for purposes of robustness testing. With multithreading (four cores, each running a separate instance of the model with the same seed and a different dataset), this script runs in about 7.5 hours. 
