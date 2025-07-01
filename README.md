@@ -2,7 +2,7 @@
 
 _The following instructions identify primary replication results in the prepublication manuscript and provide guidance for reproducing these results on your own machine._ 
 
-Download the replications archive [here](https://drive.google.com/file/d/1EaALk1ZswwAxcFXH-HvES4lDsFarMgZ_/view?usp=sharing) (GDrive link; 184 MB). 
+Download the replications archive [here](https://drive.google.com/file/d/1jacy9GItof_2O57ege6ThBkKAJJ7R1UO/view?usp=sharing) (GDrive link; 184 MB). 
 
 On unzipping `replications.zip`, you'll see three directories: articles, users, and websites. These correspond to the replications found in Sections 5.1, 5.2, and 5.3, respectively, of the manuscript. Instructions for replicating results for each section follow. 
 
