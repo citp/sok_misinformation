@@ -1,3 +1,16 @@
+### Supplementary and artifact information for the paper 'SoK: Machine Learning for Misinformation Detection': website-level replication
+
+_The following instructions identify primary replication results in the prepublication manuscript and provide guidance for reproducing these results on your own machine._ 
+
+#### Websites
+See Table 3 in Appendix D for the results of ablation analyses on an EMNLP dataset for [this paper](https://aclanthology.org/D18-1389.pdf). To run all tests, execute the bashscript contained in the directory using `./run.sh`.
+
+A text header appears at the start of each test case (e.g. "fact, full corpus, all features") denoting 1) the classification task (factuality or bias classification), 2) the corpus to be used (these vary by size (full, medium, small), or are stratified by bias (left, center, right), or credibility (low, mixed, high)), and 3) the feature set. Feature sets are printed to the console at runtime. Extraction code for features is included in the features directory. You can additionally inspect feature sets and function calls in the `run.sh` bashscript. 
+
+Accuracy, MAE, and F1 scores are reported for each test. To compare these results to those found in Table 4, read each table row horizontally, matching accuracy scores to those reported on the console. Hold-one-out analyses are denoted by (-) in the feature set labels (e.g., "articles(-)" denotes _all_ features excluding those relating to article contents and title). Evaluation of specific feature sets are denoted by (+) (e.g., "articles" denotes only those features derived from article contents and title). With the same hardware specs reported previously, the full script runs in about 70 minutes. 
+
+The README accompanying the original code release for the replicated user-level paper follows below:
+
 # Factuality and Bias Prediction of News Media
 
 This repository describes the work that was published in two papers (see citations below) on predicting the factuality and political bias in news media. Each paper proposes a different set of engineered features collected from sources of information related to the target media.
