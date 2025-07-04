@@ -2,7 +2,7 @@
 
 _The following instructions identify primary replication results in the prepublication manuscript and provide guidance for reproducing these results on your own machine._ 
 
-For article-scoped replication data files, download the `articles_data` archive [here](https://drive.google.com/file/d/1h8ML2LS8g44M2WpyX2L7Lr_bVMHECftL/view?usp=sharing) (GDrive link; 180.5 MB). 
+For article-scoped replication data files, download the `articles_data` archive [here](https://drive.google.com/file/d/1h8ML2LS8g44M2WpyX2L7Lr_bVMHECftL/view?usp=sharing) (GDrive link; 172 MB). 
 
 In this Git repo, you'll see the following three subdirectories: articles, users, and websites. These correspond to the replications found in Sections 5.1, 5.2, and 5.3, respectively, of the manuscript. Instructions for replicating results for each section follow. (These instructions have also been copied into the subdirectory for each scope.)
 
